@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musify</title>
+</head>
+<body>
+    <h1>Iscriviti ora a Musify</h1>
+    <img src="logo musica.png" alt="Logo Musify" style="width: 30%">
+    <p>E' completamente gratuito!</p>
+    <fieldset><legend><h3>Compila tutti i campi</h3></legend>
+    <form onsubmit="alert('Registrazione Inviata!')">
+        <div></div><input type="text" placeholder="Nome">
+        <div><p></p></div>
+        <div></div><input type="text" placeholder="Cognome">
+        <div><p></p></div>
+        <div><input type="email" placeholder="Email"></div>
+        <div><p></p></div>
+        <div></div><input type="password" placeholder="Password">
+        <div><p></p></div>
+        <div></div><input type="date" placeholder="Data di nascita">
+        <div><p></p></div>
+        <div></div><input type="text" placeholder="Numero di Telefono">
+        <fieldset><legend><h4>Raccontaci qualcosa sui tuoi gusti musicali</h4></legend>
+        <div>
+          <input Id="Rock" type="checkbox"><label for="Rock">Rock</label>
+          <input Id="Pop" type="checkbox"><label for="Pop">Pop</label>
+          <input Id="Classica" type="checkbox"><label for="Classica">Classica</label>
+          <input Id="Rap" type="checkbox"><label for="Rap">Rap</label>
+          <input Id="Elettronica" type="checkbox"><label for="Elettronica">Elettronica</label>
+          <input Id="Cantautori Italiani" type="checkbox"><label for="Cantautori Italiani">Cantautori Italiani</label>
+        </fieldset>
+        </div>
+        <div>
+            <fieldset>
+              <legend><h4>Manca Poco</h4></legend>
+              <p>Dichiari di avere preso visione dei <em>termini e condizioni</em> e di accettarli?</p>
+              <input id="Si" type="radio" name="Si-No" checked><label for="Si">Si</label>
+              <input id="No" type="radio" name="Si-No"><label for="No">No</label>
+            </fieldset>
+        </div>
+        <div><p></p></div>
+        <button type="submit">INVIA REGISTRAZIONE</button>
+        </fieldset>
+    </form>
+</body>
+</html>
